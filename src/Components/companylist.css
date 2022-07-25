@@ -1,0 +1,68 @@
+button {
+  background-color: #4369B2;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  height: 48px;
+  border: 1px solid #fff;
+  margin: 5px;
+}
+
+.header {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.details-card {
+  border: 1px solid #fff;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  text-align: center;
+}
+
+.details-element {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin-left:  auto;
+  margin-right: auto;
+}
