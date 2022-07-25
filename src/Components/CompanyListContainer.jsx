@@ -6,7 +6,7 @@ import { getAllCompanies } from '../redux/Allcompanies/Allcompanies';
 import './companylist.css';
 
 function CompanyListContainer() {
-  const allCompanies = useSelector((state) => state.AllCompanies).slice(0, 10);
+  const allCompanies = useSelector((state) => state.AllCompanies);
   const dispatch = useDispatch();
   useEffect(() => {
     if (allCompanies === undefined || allCompanies.length === 0) {

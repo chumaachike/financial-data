@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Space Travelers
+# Financial DATA
 
-> This is a FoodAPI application.
+> This is a Finance application.
 
 
 ## Built With
@@ -60,14 +60,6 @@ Open the ``index.html`` file inside the ``dist/`` folder in your Web Browser.
 - GitHub: [@chumaachike](https://github.com/chumaachike)
 - Twitter: [@AchikeChuma](https://twitter.com/AchikeChuma)
 - LinkedIn: [Edward Achike](https://www.linkedin.com/in/edward-achike-903432111/)
-
-👤 **Menanya Morris**
-
-- GitHub: [@Emmykage](https://github.com/masangana)
-- Twitter: [Alexmasangana](https://twitter.com/alexmasangana)
-- LinkedIn: [Edward Achike](https://www.linkedin.com/in/morris-menanya)
-
-
 
 
 ## 🤝 Contributing
