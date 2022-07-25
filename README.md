@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 - NPM (Node Package Manager)
 
 ### Setup
-Kindly feel free to check the video where we explained the code we wrote in details `https://drive.google.com/file/d/1vzdaBGq-gmMiTdVIqZhOze4qmZf7gnAM/view?usp=sharing`
+Kindly feel free to check the video where we explained the code we wrote in details `https://www.loom.com/share/fba39dbb74f9405ca1bcaf4d5a5504b8`
 Download the code from this repository.
 
 ### Install
