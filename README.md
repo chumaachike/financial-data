@@ -20,7 +20,7 @@
   - BEM
 
 ## Live Demo
-Click on this link to see this project live demo: [Live Demo Link](https://chumaachike.github.io/reactproject/)
+Click on this link to see this project live demo: [Live Demo Link](https://regal-peony-e39c9e.netlify.app/)
 
 ## Getting Started
 
