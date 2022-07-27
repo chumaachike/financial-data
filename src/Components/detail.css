@@ -1,0 +1,13 @@
+table {
+  align-self: center;
+  margin: 0 auto;
+}
+
+tr {
+  height: 40px;
+  color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #cf4278;
+}

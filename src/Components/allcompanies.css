@@ -1,0 +1,47 @@
+.companybutton {
+  background-color: transparent;
+  border: none;
+}
+
+.companybutton:nth-child(odd) {
+  background-color: #cf4278;
+}
+
+.allcompanies {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+input[type="text" i] {
+  background-color: transparent;
+  border: 5px solid #cf4278;
+  width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .allcompanies {
+    grid-template-columns: auto auto;
+  }
+
+  .companybutton:nth-child(4n + 1) {
+    background-color: transparent;
+  }
+
+  .companybutton:nth-child(4n + 2) {
+    background-color: #cf4278;
+  }
+
+  .companybutton:nth-child(4n + 3) {
+    background-color: #cf4278;
+  }
+
+  .companybutton:nth-child(4n + 4) {
+    background-color: transparent;
+  }
+}
