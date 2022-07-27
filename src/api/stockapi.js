@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-export const getCompanies = async () => {
+export const getCompanies = async (exchnage) => {
   const companies = await axios({
     method: 'GET',
-    url: 'https://financialmodelingprep.com/api/v3/financial-statement-symbol-lists',
+    url: `https://financialmodelingprep.com/api/v3/${exchnage}constituent`,
     params: {
       apikey: 'da7623cfbe7a9dd8b3739829cc5849cb',
     },
@@ -16,9 +16,8 @@ export const getCompanies = async () => {
 export const getCompanyDetails = async (name) => {
   const details = await axios({
     method: 'GET',
-    url: `https://financialmodelingprep.com/api/v3/income-statement/${name}`,
+    url: `https://financialmodelingprep.com/api/v3/quote/${name}`,
     params: {
-      limit: '120',
       apikey: 'da7623cfbe7a9dd8b3739829cc5849cb',
     },
 

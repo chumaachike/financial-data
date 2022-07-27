@@ -2,11 +2,11 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 
-import CompanyListContainer from '../CompanyListContainer';
+import AllCompanies from '../AllCompanies';
 
 const Container = () => {
   <BrowserRouter>
-    <CompanyListContainer />
+    <AllCompanies />
   </BrowserRouter>;
 };
 

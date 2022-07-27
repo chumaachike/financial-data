@@ -1,0 +1,10 @@
+.home-button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.home-image {
+  width: 150px;
+}

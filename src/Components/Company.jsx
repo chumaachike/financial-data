@@ -1,19 +1,35 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { NavLink } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import { getDetails } from '../redux/CompanyDetails/CompanyDetail';
 
-function Company({ name }) {
+function Company({ name, symbol }) {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const handleClick = () => {
-    dispatch(getDetails(name));
+    dispatch(getDetails(symbol));
+    navigate('/details', { replace: true });
   };
-  return <NavLink to="/details"><button type="button" onClick={handleClick}>{name}</button></NavLink>;
+  return (
+    <button type="button" className="companybutton" onClick={handleClick}>
+      <div className="companycontent">
+        <p>{symbol}</p>
+        <h3>{name}</h3>
+      </div>
+    </button>
+  );
 }
 
 export default Company;
 
 Company.propTypes = {
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string,
+  symbol: PropTypes.string,
+};
+
+Company.defaultProps = {
+  name: '',
+  symbol: '',
+
 };

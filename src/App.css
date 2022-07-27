@@ -1,3 +1,23 @@
 body {
-  background-color: #4369b2;
+  background-color: #FB5092;
+}
+h1, p {
+  text-align: center;
+  color: #fff;
+}
+h1 {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
