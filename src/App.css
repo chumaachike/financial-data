@@ -1,10 +1,13 @@
 body {
-  background-color: #FB5092;
+  background-color: #fb5092;
 }
-h1, p {
+
+h1, 
+p {
   text-align: center;
   color: #fff;
 }
+
 h1 {
   font-family: "Crete Round", serif;
   font-style: normal;

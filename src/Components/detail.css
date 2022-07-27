@@ -8,6 +8,6 @@ tr {
   color: #fff;
 }
 
-tr:nth-child(odd){
-  background-color: #CF4278;
+tr:nth-child(odd) {
+  background-color: #cf4278;
 }
