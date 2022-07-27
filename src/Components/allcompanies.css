@@ -28,7 +28,7 @@ input[type="text" i] {
   .allcompanies {
     grid-template-columns: auto auto;
   }
-  
+
   .companybutton:nth-child(4n + 1) {
     background-color: transparent;
   }
